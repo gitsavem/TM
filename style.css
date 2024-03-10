@@ -48,7 +48,7 @@ nav{
 main{
     margin: auto;
     width: 90vw;
-    background-color: white;
+    background-color: var(--CorNeutra);
     height: 100vh;
 }
 
@@ -105,6 +105,9 @@ ol{
     background-image: linear-gradient(to bottom, var(--CorGra), var(--CorGra2));
     color: var(--CorNeutra);
     border: 6px solid var(--CorBase);
+}
+#sec2{
+    padding: 20px;
 }
 #a1{
     padding-bottom: 40px;
