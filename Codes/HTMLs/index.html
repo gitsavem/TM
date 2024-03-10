@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tal de Maik</title>
+    <link rel="stylesheet" href="../CSS/style.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet" />
+</head>
+<body>
+    <menu id="menuAba">
+        <i id="closeMenu" class="material-symbols-sharp" onclick="hideMenu()">close</i>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Atualizações</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </menu>
+    <header>
+        <i id="menuIcon" class="material-symbols-sharp" onclick="showMenu()">menu</i>
+        <h1>Tal de Maik</h1>
+        <p>Conheça a pessoa mais <em>"Crazy"</em> que você poderá conhecer, mas tem lá seus pontos fortes, como beleza, inteligência, quase sempre tira 2 em d20</p>
+    </header>
+    <nav>
+        <ul id="nav">
+            <li><a href="#intro">Introdução</a></li>
+            <li><a href="#proj">Projetos</a></li>
+            <li><a href="#redes">Redes</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sec1">
+            <h2>Sumário</h2>
+            <ol>
+                <li>Introdução</li>
+                <li>Projetos</li>
+                <li>Redes</li>
+                <li>Sobre</li>
+            </ol>
+            <h2>Introdução</h2>
+            <p>MUIITO BEM-VINDO!!! este é o meu lindo site, onde basicamente você conhecerá mais sobre mim, a famosa "chuta pobre"</p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function hideMenu(){
+            menuAba.style.display = 'none'
+        }
+        function showMenu(){
+            menuAba.style.display = 'block'
+        }
+    </script>
+</body>
+</html>
