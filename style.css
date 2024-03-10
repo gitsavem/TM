@@ -49,7 +49,7 @@ main{
     margin: auto;
     width: 90vw;
     background-color: var(--CorNeutra);
-    height: 100vh;
+    height: 100%;
 }
 
 
