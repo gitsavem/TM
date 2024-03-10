@@ -47,7 +47,7 @@ nav{
 }
 main{
     margin: auto;
-    width: 80vw;
+    width: 90vw;
     background-color: white;
     height: 100vh;
 }
@@ -63,6 +63,7 @@ h2{
 }
 p{
     text-align: justify;
+    font-size: 0.9em;
 }
 i{
     cursor: pointer;
@@ -94,7 +95,8 @@ ol{
 } #nav a{
     text-decoration: none;
     color: var(--CorNeutra);
-    padding: 11px;
+    padding: 10px;
+    border-radius: 10px;
 } #nav a:hover{
     background-color: var(--CorFundo);
 }
@@ -103,4 +105,9 @@ ol{
     background-image: linear-gradient(to bottom, var(--CorGra), var(--CorGra2));
     color: var(--CorNeutra);
     border: 6px solid var(--CorBase);
+}
+#a1{
+    padding-bottom: 40px;
+} #a2{
+    padding-bottom: 96px;
 }
