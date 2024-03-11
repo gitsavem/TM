@@ -49,9 +49,17 @@ main{
     margin: auto;
     width: 90vw;
     background-color: var(--CorNeutra);
+    color: var(--CorNeutra2);
     height: 100%;
 }
-
+footer{
+    background-color: var(--CorBase);
+    padding: 20px;
+    color: var(--CorNeutra);
+} footer a{
+    color: var(--CorNeutra);
+    text-decoration: none;
+}
 
 h1{
     text-align: center;
@@ -62,6 +70,7 @@ h2{
     font-size: 2em;
 }
 p{
+    text-indent: 20px;
     text-align: justify;
     font-size: 0.9em;
 }
@@ -113,4 +122,15 @@ ol{
     padding-bottom: 40px;
 } #a2{
     padding-bottom: 96px;
+} #a5 img{
+    width: 45%;
+    margin: auto;
+} #a5 div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} #a5 a{
+    color: var(--CorNeutra2);
+    text-decoration: none;
 }
